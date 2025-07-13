@@ -1,0 +1,5 @@
+2-csv-translation/map_translations.csv
+3-final-script/translate_map_from_csv.jsx
+tmp_files/extracted_text_elements_utf8.csv
+.DS_Store
+.claude
