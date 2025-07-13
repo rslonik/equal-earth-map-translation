@@ -1,10 +1,10 @@
 # Map Translation System v3 - Simplified Workflow
 
-**Clean, streamlined approach for translating Adobe Illustrator maps to Portuguese.**
+**Scripts for translating Adobe Illustrator Equal Earth maps.**
+
+<https://equal-earth.com/>
 
 ## 🎯 Overview
-
-V3 simplifies the translation process to 3 essential steps:
 
 1. **Extract** text from Illustrator map
 2. **Edit** translations manually in a CSV spreadsheet
@@ -115,4 +115,3 @@ If you need to add more translations:
 1. Edit `map_translations.csv` to add more translations
 2. Run `python3 generate_final_script.py` again
 3. Run the updated `translate_map_from_csv.jsx` in Illustrator
-
