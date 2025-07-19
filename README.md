@@ -10,6 +10,16 @@
 2. **Edit** translations manually in a CSV spreadsheet
 3. **Apply** translations back to the map
 
+## IMPORTANT
+
+You need to change the path in extract_with_encoding_fix.jsx before running in illustrator or it won't be able to save the file.
+
+I chose to use the full path because the relative path is relative to the map you are working on.
+
+After editing map_translations.csv with translations it must be put in the same place and it MUST use semicolon (;) delimiter. If you use Google Sheets to translate there is a file in this repo with a function (s2csv) that can be run in Extensions > App Script that will save to your Google Drive with semicolon delimiter.
+
+Other functions I have used for searching translations in other sheets so you can probably ignore those.
+
 ## 📁 Directory Structure
 
 ```
